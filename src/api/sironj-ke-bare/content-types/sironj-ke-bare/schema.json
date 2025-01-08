@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sironj_ke_bares",
+  "info": {
+    "singularName": "sironj-ke-bare",
+    "pluralName": "sironj-ke-bares",
+    "displayName": "sironj-ke-bare"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "sironj": {
+      "type": "blocks"
+    },
+    "history": {
+      "type": "blocks"
+    },
+    "geo": {
+      "type": "blocks"
+    },
+    "vidhan": {
+      "type": "blocks"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "district_admins",
+  "info": {
+    "singularName": "district-admin",
+    "pluralName": "district-admins",
+    "displayName": "districtAdmin"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "profile": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "na": {
+      "type": "string"
+    },
+    "designation": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "address": {
+      "type": "text"
+    },
+    "phone": {
+      "type": "biginteger"
+    },
+    "room": {
+      "type": "biginteger"
+    }
+  }
+}

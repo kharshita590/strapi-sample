@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "mores",
+  "info": {
+    "singularName": "more",
+    "pluralName": "mores",
+    "displayName": "more"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "depart": {
+      "type": "blocks"
+    }
+  }
+}

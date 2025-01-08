@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "dms",
+  "info": {
+    "singularName": "dm",
+    "pluralName": "dms",
+    "displayName": "dm"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "designation": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "biginteger"
+    },
+    "room": {
+      "type": "biginteger"
+    }
+  }
+}

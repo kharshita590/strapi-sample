@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "parshad_cards",
+  "info": {
+    "singularName": "parshad-card",
+    "pluralName": "parshad-cards",
+    "displayName": "parshad-card"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "name": {
+      "type": "string"
+    },
+    "position": {
+      "type": "string"
+    }
+  }
+}

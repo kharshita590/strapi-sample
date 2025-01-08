@@ -1,0 +1,60 @@
+{
+  "kind": "collectionType",
+  "collectionName": "stds",
+  "info": {
+    "singularName": "std",
+    "pluralName": "stds",
+    "displayName": "STD"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "stdHeading": {
+      "type": "string"
+    },
+    "stdheading1": {
+      "type": "string"
+    },
+    "std1": {
+      "type": "string"
+    },
+    "std2": {
+      "type": "string"
+    },
+    "std3": {
+      "type": "string"
+    },
+    "std4": {
+      "type": "string"
+    },
+    "std5": {
+      "type": "string"
+    },
+    "pinheading": {
+      "type": "string"
+    },
+    "pin1": {
+      "type": "string"
+    },
+    "pin2": {
+      "type": "string"
+    },
+    "pin3": {
+      "type": "string"
+    },
+    "pin4": {
+      "type": "string"
+    },
+    "p5": {
+      "type": "string"
+    },
+    "p6": {
+      "type": "string"
+    },
+    "p8": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "organisation_charts",
+  "info": {
+    "singularName": "organisation-chart",
+    "pluralName": "organisation-charts",
+    "displayName": "organisation-chart"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "orgchart": {
+      "type": "blocks"
+    },
+    "DistrictCollector": {
+      "type": "string"
+    },
+    "AdditionalCollector": {
+      "type": "string"
+    },
+    "ChiefExecutiveOfficerZillaPanchayat": {
+      "type": "string"
+    },
+    "SubdivisionalMagistrate": {
+      "type": "string"
+    },
+    "Tehsildar": {
+      "type": "string"
+    },
+    "NayabTehsildar": {
+      "type": "string"
+    },
+    "Patwari": {
+      "type": "string"
+    },
+    "ceo": {
+      "type": "string"
+    },
+    "head": {
+      "type": "string"
+    }
+  }
+}

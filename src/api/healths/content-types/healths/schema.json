@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "healthss",
+  "info": {
+    "singularName": "healths",
+    "pluralName": "healthss",
+    "displayName": "health"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Health": {
+      "type": "blocks"
+    },
+    "healthcontent": {
+      "type": "text"
+    },
+    "vidhishaContent": {
+      "type": "blocks"
+    },
+    "scheme": {
+      "type": "blocks"
+    },
+    "infra": {
+      "type": "blocks"
+    }
+  }
+}

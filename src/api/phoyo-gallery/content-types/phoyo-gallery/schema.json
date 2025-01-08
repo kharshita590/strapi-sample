@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "phoyo_galleries",
+  "info": {
+    "singularName": "phoyo-gallery",
+    "pluralName": "phoyo-galleries",
+    "displayName": "photo-gallery",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "images": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
