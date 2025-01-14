@@ -1,0 +1,7 @@
+LOAD DATABASE
+     FROM sqlite:///path/to/your/data.db
+     INTO postgresql://username:password@your-db-host:5432/your-db-name
+
+WITH include no drop, create tables, create indexes, reset sequences
+
+SET work_mem to '16MB', maintenance_work_mem to '512 MB'

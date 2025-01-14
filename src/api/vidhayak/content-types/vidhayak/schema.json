@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "vidhayaks",
+  "info": {
+    "singularName": "vidhayak",
+    "pluralName": "vidhayaks",
+    "displayName": "vidhayak"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "img": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "name": {
+      "type": "string"
+    },
+    "position": {
+      "type": "string"
+    }
+  }
+}

@@ -1105,6 +1105,36 @@ export interface ApiStdStd extends Struct.CollectionTypeSchema {
   };
 }
 
+export interface ApiVidhayakVidhayak extends Struct.CollectionTypeSchema {
+  collectionName: 'vidhayaks';
+  info: {
+    displayName: 'vidhayak';
+    pluralName: 'vidhayaks';
+    singularName: 'vidhayak';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    img: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::vidhayak.vidhayak'
+    > &
+      Schema.Attribute.Private;
+    name: Schema.Attribute.String;
+    position: Schema.Attribute.String;
+    publishedAt: Schema.Attribute.DateTime;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
 export interface PluginContentReleasesRelease
   extends Struct.CollectionTypeSchema {
   collectionName: 'strapi_releases';
@@ -1636,6 +1666,7 @@ declare module '@strapi/strapi' {
       'api::police-admin.police-admin': ApiPoliceAdminPoliceAdmin;
       'api::sironj-ke-bare.sironj-ke-bare': ApiSironjKeBareSironjKeBare;
       'api::std.std': ApiStdStd;
+      'api::vidhayak.vidhayak': ApiVidhayakVidhayak;
       'plugin::content-releases.release': PluginContentReleasesRelease;
       'plugin::content-releases.release-action': PluginContentReleasesReleaseAction;
       'plugin::i18n.locale': PluginI18NLocale;
